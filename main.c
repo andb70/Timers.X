@@ -1,8 +1,7 @@
 /*
  *      Author:     Andrea Biasutti
  *      Date:       July 5th 2019
- * 
- *      Subject:    TSIOT - Interconnessione di DEVICE
+ *      Hardware:   PIC32MX440256H
  * 
  */
 #pragma config FPLLIDIV = DIV_2 // PLL Input Divider (1x Divider)
