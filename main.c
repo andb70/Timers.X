@@ -1,7 +1,11 @@
 /*
+ * released under GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 19 November 2007
+ * 
  *      Author:     Andrea Biasutti
  *      Date:       July 5th 2019
  *      Hardware:   PIC32MX440256H
+ * 
+ * source available here https://github.com/andb70/Timers.X
  * 
  */
 #pragma config FPLLIDIV = DIV_2 // PLL Input Divider (1x Divider)
