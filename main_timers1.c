@@ -81,12 +81,12 @@ int main() {
                 monitorYLedToggle();
             }
         }
-        if(timer_usElapsed(0))
+        if(timer_usFinished(0))
         {
             monitorGLedToggle();
             timer_usSet(0, TMR_FREQ_2<<TMR_FREQ_K);
         }
-        if(timer_usElapsed(1))
+        if(timer_usFinished(1))
         {
             monitorRLedToggle();
             timer_sSet(1, 1);

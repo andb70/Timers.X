@@ -44,7 +44,12 @@ void initTimers() {
     
     // reset the flags and counter
     heartbeatCount = TMR_FREQ_2;
-    timerNotify.w=0;
+    timerNotify.w = 0;
+    timerFlags.w = 0;
+    char i;
+    for (i=0; i< NUM_TIMERS_us; i++)    
+        timerIntervals[i] = 0; 
+    
 }
 
 void __ISR(_TIMER_1_VECTOR, IPL2SOFT) Timer1Handler(void) {
